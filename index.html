@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Jobs</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/custome.css">
+</head>
+<body>
+    <h1>Buscador github jobs</h1>
+
+    <form id="buscar-trabajo">
+        <div>
+            <input type="text" id="busqueda" placeholder="Búsqueda por tecnología: ej. Node.js Javascript o C++">
+            <input type="submit" value="Buscar vacantes">
+        </div>
+    </form>
+
+    <div id="resultado"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
